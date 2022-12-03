@@ -1,0 +1,50 @@
+{
+  "App": {
+    "port": "APP_PORT",
+    "sequelize": {
+      "connection_dialect": "DATABASE_CONNECTION_DIALECT",
+      "connection_string": "DATABASE_CONNECTION_STRING",
+      "connection_options": "DATABASE_CONNECTION_OPTIONS",
+      "host": "DATABASE_HOST",
+      "username": "DATABASE_USERNAME",
+      "password": "DATABASE_PASSWORD",
+      "db_name": "DATABASE_NAME",
+      "db_port": "DATABASE_PORT",
+      "migrations": "DATABASE_MIGRATIONS",
+      "migrations_dir": "DATABASE_MIGRATIONS_DIR",
+      "entities": "DATABASE_ENTITIES",
+      "entities_dir": "DATABASE_ENTITIES_DIR",
+      "sunchronize": "DATABASE_SUNCHRONIZE",
+      "logging": "DATABASE_LOGGING",
+      "rsa_public_key": "DATABASE_RSA_PUBLIC_KEY"
+    },
+    "mongodb": {
+      "mongodb_uri": "MONGODB_URI",
+      "mongodb_database": "MONGODB_DATABASE"
+    },
+    "auth": {
+      "app_key": "APP_PRIVATE_KEY",
+      "session_key": "APP_SESSION_KEY",
+      "access_token_secret": "ACCESS_TOKEN_SECRET",
+      "refresh_token_secret": "REFRESH_TOKEN_SECRET",
+      "access_token_expires_in": "ACCESS_TOKEN_EXPIRES_IN",
+      "refresh_token_expires_in": "REFRESH_TOKEN_EXPIRES_IN",
+      "reset_password_secret": "RESET_PASSWORD_SECRET",
+      "reset_password_private_key": "RESET_PASSWORD_PRIVATE_KEY",
+      "reset_password_public_key": "RESET_PASSWORD_PUBLIC_KEY",
+      "access_token_private_key": "ACCESS_TOKEN_PRIVATE_KEY",
+      "access_token_public_key": "ACCESS_TOKEN_PUBLIC_KEY",
+      "refresh_token_private_key": "REFRESH_TOKEN_PRIVATE_KEY",
+      "refresh_token_public_key": "REFRESH_TOKEN_PUBLIC_KEY"
+    },
+    "google": {
+      "clientId": "GOOGLE_CLIENT_ID",
+      "clientSecret": "GOOGLE_CLIENT_SECRET",
+      "callback_url": "GOOGLE_CALLBACK_URL"
+    },
+    "logger": {
+      "enabled": true,
+      "level": "info"
+    }
+  }
+}
